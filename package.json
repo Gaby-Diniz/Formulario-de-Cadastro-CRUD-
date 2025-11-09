@@ -1,0 +1,27 @@
+{
+  "name": "formulario-de-cadastro-crud-",
+  "version": "1.0.0",
+  "description": "Formulário com banco de dados",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaby-Diniz/Formulario-de-Cadastro-CRUD-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gaby-Diniz/Formulario-de-Cadastro-CRUD-/issues"
+  },
+  "homepage": "https://github.com/Gaby-Diniz/Formulario-de-Cadastro-CRUD-#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3"
+  }
+}
