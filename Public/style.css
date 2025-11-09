@@ -1,0 +1,24 @@
+.form{
+    background-color:;
+    text-align: center;
+}
+
+.botao{
+    background-color: #ff0800;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.botao : hover {
+    cursor: pointer;
+}
+.body {
+    background-color: greenyellow;
+}
+
+h1{
+    text-align: center;
+}
