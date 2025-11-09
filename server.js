@@ -5,7 +5,7 @@ const mysql = require('mysql2');
 const app = express();
 const port = 3000;
 
-// Configura o body-parser para ler dados em JSON
+// Configura o body-parser para ler dados em JSONs
 app.use(bodyParser.json());
 
 // Configura a conexão com o banco de dados
