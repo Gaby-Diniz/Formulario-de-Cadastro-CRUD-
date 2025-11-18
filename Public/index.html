@@ -4,59 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpotUDF</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
-    
-</head>
 <body class="body">
 
 <nav class="navbar">
-<div class="logo">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="logo" 
-/>
-</div>
-
-
-<div class="menu">
-<a href="#">Início</a>
-<a href="#">Pesquisar</a>
-<a href="#">Sobre</a>
-<a class="btn-cadastro" href="#">Cadastrar</a>
-</div>
+  <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="logo" />
+  </div>
+  <div class="menu">
+    <a href="#">Início</a>
+    <a href="#">Pesquisar</a>
+    <a href="#">Sobre</a>
+    <a class="btn-cadastro" href="#">Cadastrar</a>
+  </div>
 </nav>
 
-
-<div class="content">
-</div>
+<section id="Cadastre-se"> 
+  <form action="/inserirCliente" method="post" class="form">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br>
     
-  <section id="Cadastre-se"> 
-    <form action="/inserirCliente" method="post" class="form">
-        <label for="nome">Nome:</label><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="telefone">Telefone:</label><br>
+    <input type="text" id="telefone" name="telefone"><br>
+    
+    <label for="endereco">Endereço:</label><br>
+    <input type="text" id="endereco" name="endereco"><br><br>
+    
+    <input type="submit" value="Inserir Cliente" class="botao">
+  </form>
+</section>
 
-        <input type="text" id="nome" name="nome" required><br>
-        <label for="email">Email:</label><br>
-
-        <input type="email" id="email" name="email" required><br>
-        <label for="telefone">Telefone:</label><br>
-        
-        <input type="text" id="telefone" name="telefone"><br>
-        <label for="endereco">Endereço:</label><br>
-
-        <input type="text" id="endereco" name="endereco"><br><br>
-        <input type="submit" value="Inserir Cliente" class="botao">
-    </form>
-    </section>
-
-
-  <footer>
-	<p>&copy; 2025 Todos os Direitos Reservados  
-
-	Design by: SpotUDF</p>	
-	</footer>
+<footer>
+  <p>&copy; 2025 Todos os Direitos Reservados. Design by: SpotUDF</p>  
+</footer>
 
 </body>
-
 </html>
